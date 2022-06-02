@@ -39,6 +39,8 @@ dependencies:
   animated_theme_switcher: ^2.0.6
   get_storage: null
   provider: ^6.0.3
+  dotted_line: ^3.1.0
+  flutter_signin_button: ^2.0.0
 
 
 dev_dependencies:

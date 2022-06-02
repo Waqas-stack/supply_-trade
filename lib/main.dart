@@ -6,7 +6,16 @@ import 'package:provider/provider.dart';
 import 'package:supply_trade/provider/checkboxprovider.dart';
 import 'package:supply_trade/theme/dark.dart';
 import 'package:supply_trade/theme/light.dart';
+import 'package:supply_trade/view/Contactpage/contactpage.dart';
+import 'package:supply_trade/view/Editprofile/editprofile.dart';
+import 'package:supply_trade/view/Info/info.dart';
+import 'package:supply_trade/view/Notifications/notifications.dart';
+import 'package:supply_trade/view/Pastorder/pastorder.dart';
+import 'package:supply_trade/view/Quote/quote.dart';
+import 'package:supply_trade/view/Supportpage/supportpage.dart';
 import 'package:supply_trade/view/Welcome/welcome.dart';
+import 'package:supply_trade/view/home/home.dart';
+import 'package:supply_trade/view/order/order.dart';
 
 void main() async {
   await GetStorage.init();
@@ -35,7 +44,7 @@ class MyApp extends StatelessWidget {
                 debugShowCheckedModeBanner: false,
                 title: 'Supply Trade',
                 theme:theme,
-                home: Welcome(),
+                home: Home(),
               );
             },
 
