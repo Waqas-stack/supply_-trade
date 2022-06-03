@@ -45,6 +45,7 @@ class MyApp extends StatelessWidget {
                 title: 'Supply Trade',
                 theme:theme,
                 home: Home(),
+                //waqas
               );
             },
 
